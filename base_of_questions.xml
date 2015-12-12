@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+	<ask>
+		<question>В каком году отменили крепостное право в России?(в ответе укажите число)</question>
+		<answer>1861</answer>
+		
+	</ask>
+	<ask>
+		<question>столица Непала?</question>
+		<answer>Катманду</answer>
+ 	</ask>
+        	<ask>
+		<question>Кто является "отцом" числа пи?</question>
+		<answer>Архимед</answer>
+		
+	</ask>
+	<ask>
+		<question>Обладатель футбольной премии "Золотой мяч" 2012 года?(В ответе напишите фамилию футболиста)</question>
+		<answer>Месси</answer>
+ 	</ask>
+        	<ask>
+		<question>Первый человек, побывавший на луне?(Укажите фамилию)</question>
+		<answer>Армстронг</answer>
+		
+	</ask>
+	<ask>
+		<question>Автор романа "Преступление и наказание"?</question>
+		<answer>Достоевский</answer>
+ 	</ask>
+        	<ask>
+		<question>В каком году был основан МФТИ?(Укажите дату)</question>
+		<answer>1946</answer>
+		
+	</ask>
+	<ask>
+		<question>Лучший друг Шерлока Холмса?</question>
+		<answer>Ватсон</answer>
+ 	</ask>
+
+</users>

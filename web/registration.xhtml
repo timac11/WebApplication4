@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+    <title> Welcome </title>
+
+</h:head>
+<h:body>
+<h:form>
+    <h3> Enter you data for registration please </h3>
+    <table>
+        <tr>
+            <td> Nickname: </td>
+            <td> <h:inputText value="#{userbean.nickname}" title="Nickname" tabindex="3" required="true" 
+requiredMessage="nickname is required"/>
+<h:message id="m3" for="fNickname" style="color:red"/></td>
+        </tr>
+        <tr>
+            <td> Password: </td>
+            <td> <h:inputText value="#{userbean.password}" title="Password" tabindex="2" required="true" 
+requiredMessage="password is required"/>
+<h:message id="m2" for="fPassword" style="color:red"/></td>
+        </tr>
+  
+    <tr>
+            <td> Name: </td>
+            <td> <h:inputText value="#{userbean.name}" title="First Name" tabindex="1" required="true" 
+requiredMessage="first name is required"/>
+<h:message id="m1" for="fName" style="color:red"/></td>
+        </tr>
+    <tr>
+            <td> Second Name: </td>
+            <td> <h:inputText value="#{userbean.sname}"/></td>
+        </tr>
+    </table>
+    <p><h:commandButton value="Registration" action ="#{userbean.Check_create_user}"/></p>
+    
+</h:form>
+</h:body>
+</html>

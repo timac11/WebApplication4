@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+    <title> Welcome </title>
+
+</h:head>
+<h:body>
+<h:form>
+  
+  
+    <td>"You score now: #{victorina.scores}"</td>
+    <p><td>"#{victorina.question}"</td></p>
+    <td><h:inputText value ="#{victorina.response}"/></td> 
+   
+    <p><h:commandButton  value="To_Check"  action ="#{victorina.answerAction}"/></p>
+</h:form>
+</h:body>
+</html>
